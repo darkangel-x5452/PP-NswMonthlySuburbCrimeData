@@ -4,8 +4,8 @@ import sqlite3
 from os import path
 
 
-DB = 'NSW_Suburb_Crime_Data.sqlite'
-TABLE_NAME = "NSW_Suburb_Crime_Data"
+DB = 'NSW_Suburb_Crime_Data_Jan_95_Dec_18.sqlite'
+TABLE_NAME = 'NSW_Suburb_Crime_Data_Jan_95_Dec_18'
 TITLE = 'Data Service for NSW monthly suburb crime figures from Janurary 1995 to December 2018.'
 DESCRIPTION = 'This is a Flask-Restplus data service that allows a client to consume APIs related to NSW monthly suburb crime figures from Janurary 1995 to December 2018.\n Relatives Postcode(s) were obtained from AustPost\'s "standard_postcode_file_pc001_16062019" and https://postcodes-australia.com/state-postcodes/nsw, postcodes may be missing from certain suburbs.'
 
